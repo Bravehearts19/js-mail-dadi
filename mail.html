@@ -1,34 +1,54 @@
 <html lang="it">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Per il corretto funzionamento delle media query -->
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> <!-- Link Bootstrap -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Link Font-Awesome -->
-        
-        <link rel="stylesheet" href="css/mail.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Per il corretto funzionamento delle media query -->
 
-        <title>Mail</title>
-    </head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Link Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Link Font-Awesome -->
 
-    <body>
-        <!-- Inizio header -->
-        <header>
+    <link rel="stylesheet" href="css/mail.css">
+
+    <title>Mail</title>
+</head>
+
+<body>
+    <!-- Inizio header -->
+    <header>
+
+    </header>
+    <!-- Fine header -->
+
+    <!-- Inizio main -->
+    <main>
+        <div class="container my_container">
+            <form>
+                <div class="form-group">
+                    <label for="inputEmail" class="pb-2">Email address</label>
+                    
+                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="La mia mail">
+                    
+                    <small id="emailHelp" class="form-text text-muted">Inserisci qui sopra la mail del tuo account</small>
+                </div>
+
+                <button type="submit" class="btn btn-primary mt-3">Accedi</button>
+            </form>
+
             
-        </header>
-        <!-- Fine header -->
+        </div>
+    </main>
+    <!-- Fine main -->
 
-        <!-- Inizio main -->
-        <main>
-           
-        </main>
-        <!-- Fine main -->
+    <!-- Inizio footer -->
+    <footer>
 
-        <!-- Inizio footer -->
-        <footer>
+    </footer>
+    <!-- Fine footer -->
+    <script type="text/javascript" src="js/mail.js"></script>
+</body>
 
-        </footer>
-        <!-- Fine footer -->
-        <script type="text/javascript" src="js/mail.js"></script>
-    </body>
 </html>
